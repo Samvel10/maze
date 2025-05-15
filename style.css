@@ -1,0 +1,65 @@
+body {
+	font-family: Arial, sans-serif;
+	margin: 20px;
+	background-color: #f0f0f0;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+table {
+	border-collapse: collapse;
+	margin-top: 20px;
+}
+
+.vandak {
+	height: 30px;
+	width: 30px;
+	background-color: #222;
+	border: 1px solid #444;
+	transition: background-color 0.3s, transform 0.2s;
+}
+
+.vandak:hover {
+	background-color: #555;
+	transform: scale(1.1);
+	cursor: pointer;
+}
+
+.datark {
+	width: 30px;
+	height: 30px;
+	background-color: #fff;
+	border: 1px solid #ddd;
+	transition: background-color 0.3s, transform 0.2s;
+}
+
+.datark:hover {
+	background-color: #eee;
+	transform: scale(1.1);
+	cursor: pointer;
+}
+
+button {
+	padding: 10px 20px;
+	font-size: 16px;
+	border: none;
+	border-radius: 5px;
+	background-color: #007BFF;
+	color: #fff;
+	cursor: pointer;
+	transition: background-color 0.3s, transform 0.2s;
+}
+
+button:hover {
+	background-color: #0056b3;
+	transform: scale(1.05);
+}
+
+button:active {
+	background-color: #003f7f;
+}
+.container {
+	display: flex;
+	align-items: flex-start;
+}
